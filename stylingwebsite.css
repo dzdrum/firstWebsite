@@ -1,0 +1,28 @@
+p{
+    font-family: arial;
+    }
+
+#website-title{
+    font-family: cursive;
+    text-transform: capitalize;
+    font-size: 64px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#web-description{
+    text-align: center;
+    font-size: 30px;
+}
+
+#table-heading{
+    color: green;
+}
+
+#center{
+    text-align: center;
+}
