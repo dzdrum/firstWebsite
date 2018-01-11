@@ -1,28 +1,72 @@
 p{
     font-family: arial;
+    text-align: center;
     }
 
-#website-title{
-    font-family: sans-serif;
+h1{
+    font-family: cursive;
     text-transform: capitalize;
     font-size: 64px;
     text-align: center;
 }
 
-h1{
+h3{
     text-align: center;
 }
 
+p.special{
+    text-align: left;
+}
 
 #web-description{
     text-align: center;
     font-size: 30px;
 }
 
-#table-heading{
+h3{
     color: green;
 }
 
 #center{
     text-align: center;
 }
+
+table{
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid green;
+    
+    
+}
+th {
+    margin: 2px;
+    border: 1.5px solid green;
+    background-color: lightskyblue;
+    color: white;
+    padding: 8px;
+}
+tr {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-bottom: 1.5px solid green;
+    
+    /*display: inline-block;
+    align-items: center;
+    */
+}
+td {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-bottom: 1.5px solid green;
+    border-right: 1.5px solid green;
+    padding: 8px;
+    /*display: inline-block;
+    align-items: center;
+    */
+}
+
+/* Centering most items
+display:block;
+margin-left:auto;
+margin-right:auto;
+*/
