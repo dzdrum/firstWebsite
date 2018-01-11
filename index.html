@@ -11,17 +11,25 @@
     <title>Dylans First Attempt at Making a Website!</title>
       
       <!--this is linking the css stylingwebsite file to this-->
-      <link href="/Users/dylandrum/Desktop/stylingwebsite.css" type="text/css" rel="stylesheet">
+      <link href="/Users/dylandrum/Desktop/firstWebsite/stylingwebsite.css" type="text/css" rel="stylesheet">
   </head>
 
   <body>
-    <h1 id="website-title">Dylan Drum</h1>
+      <h1><a id="Bottom">Dylan Drum</a></h1>
 
       <p id="web-description">This website will be giving a description of different aspects of my life!</p>
       
+      <ul>
+        <li><a href="#Academics">Academics</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#About me">About Me</a></li>
+        <li><a href="#Contact me">Contact me</a></li>
+      </ul>
+      
       <div id="Academics">
       
-          <h2>Academics</h2>
+          <h2><a id="Academics">Academics</a></h2>
           
           <ul>
             <li>Sophomore at UNCC</li>
@@ -31,9 +39,9 @@
           
           <!--table 1-->
           
-          <h3 id="table-heading">Freshman Year - Fall 2016</h3>
+          <h3>Freshman Year - Fall 2016</h3>
           <!--this changes the font family, this is inline css styling-->
-          <table style="font-family: arial;"> 
+          <table> 
               <thead>
           <tr> 
               <!--The scope tells whether it is a row or a column-->
@@ -74,7 +82,7 @@
           </tr>
               
           <tr>
-              <td>Writing and Inquiry Academic Context/Studio</td>
+              <td>Writing and Inquiry Academic Studio</td>
               <td>UWRT 1104</td>
               <td>Final - 95.69%</td>
               <td>Final - A</td>
@@ -84,7 +92,7 @@
           
           <!--table 2-->
           
-          <h3 id="table-heading">Freshman Year - Spring 2017</h3>
+          <h3>Freshman Year - Spring 2017</h3>
           <table>
               <thead>
             <tr> 
@@ -139,7 +147,7 @@
       
           <!--table 3-->
           
-          <h3 id="table-heading">Sophmore Year - Fall 2017</h3>
+          <h3>Sophmore Year - Fall 2017</h3>
           <table>
               <thead>
           <tr> 
@@ -150,9 +158,7 @@
             <th scope="col">Overall Letter Grade</th>
           </tr>
               </thead>
-          <tr>
-              <td></td>
-          </tr>
+              
               <tbody>
           
           <tr>
@@ -194,16 +200,16 @@
       </div>
       
       <div id="Skills">
-        <h2>Skills</h2>
+        <h2><a id="Skills">Skills</a></h2>
           
       </div>
       
       <div id="Experience">
-        <h2>Experience</h2>
+        <h2><a id="Experience">Experience</a></h2>
       </div>
 
       <div id="About Me">
-        <h2>About me!</h2>
+        <h2><a id="About me">About me!</a></h2>
           <h4>Technology</h4>
             <p>I have always been intigued by new technology. During my years in high school I would spend hours out of every week watching videos on the neweset phones and laptops hitting the market. I have seen the astonishing rate of innovation in the technology field and I want to be a part in it. I have been an apple fanboy since I saw the first Iphone debut in 2007 but was unable to afford and Iphone of my own until the 4s was released. After a few years of using IOS and MacOS I have begun to see the increasing competition and innovation from Apples competitors. While many people love the familiarity of the IOS software that sparingly changes with time, there is a platform that provides more control and more features. This platform is Android and while it may have been unattractive and buggy at its first release, it has came about with many great changes to make this software user-friendly. If you would like to know more about this software and its differences to Apple's IOS then please check out this video <a href="https://www.youtube.com/watch?v=gCjkBWtFTv8">here</a> </p>
           <h4>Athletics</h4>
@@ -212,14 +218,16 @@
       </div>
       
       <div id="Contact">
-        <h2><strong>Contact Me!</strong></h2>
-        <p>You can find me on: </p>
+        <h2><a id="Contact me">Contact Me!</a></h2>
+        <p class="special">You can find me on: </p>
           <ul>
             <li>LinkedIn</li>
             <li>Hire-A-Niner</li>
             <li>By phone: 704-315-7943</li>
             <li>By email: ddrum4@uncc.edu</li>
           </ul>
+          
+          <p><a href="#Bottom">Back to the Top!</a></p>
       </div>
 
   </body>
