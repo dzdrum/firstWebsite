@@ -35,8 +35,15 @@ table{
     text-align: center;
     margin: 0 auto;
     border: 3px solid green;
-    
-    
+    border-radius: 10px;
+    transition: width, height 3s; 
+}
+
+table:hover{
+  width: 700px;
+  height: 500px;
+}
+
 }
 th {
     margin: 2px;
